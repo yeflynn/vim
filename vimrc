@@ -15,5 +15,4 @@ set wrap
 set hlsearch
 set textwidth=80
 
-# Auto trim spaces
 autocmd FileType c,cpp,python,ruby,java autocmd BufWritePre <buffer> :%s/\s\+$//e

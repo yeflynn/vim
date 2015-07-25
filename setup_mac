@@ -1,0 +1,15 @@
+# Install homebrew
+ruby -e "$(curl -fsSL
+https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Ctags
+brew install ctags-exuberant
+
+# Install vim pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+# Install vim plugins
+git clone https://github.com/xolox/vim-misc
+git clone https://github.com/xolox/vim-easytags
+git clone git://github.com/majutsushi/tagbar
