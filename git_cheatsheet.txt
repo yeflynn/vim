@@ -1,0 +1,8 @@
+create a git root folder on github, i.e., yeflynn/utils
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/yeflynn/utils.git
+git push -u origin master
+
+
