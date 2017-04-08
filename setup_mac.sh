@@ -1,10 +1,17 @@
-SheBang line
+#SheBang line
 Bash  #!/usr/bin/bash
 Python #!/usr/bin/env python
 
+# Terminal setup
+# open terminal, Application's Preference next to the apple on top left corner.
+# - choose default profile
+# - chhose text > font
+brew install terminator
+
 # Install homebrew
-ruby -e "$(curl -fsSL
-https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew help
+brew update
 
 # Ctags
 brew install ctags-exuberant
