@@ -32,6 +32,7 @@ git clone https://github.com/xolox/vim-easytags
 git clone git://github.com/majutsushi/tagbar
 
 # Atom
+brew cask install atom
 ## packages
 https://atom.io/themes/seti-ui
 https://atom.io/packages/open-recent
