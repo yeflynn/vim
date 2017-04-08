@@ -1,4 +1,6 @@
-#!/usr/bin/bash 
+SheBang line
+Bash  #!/usr/bin/bash
+Python #!/usr/bin/env python
 
 # Install homebrew
 ruby -e "$(curl -fsSL
@@ -7,6 +9,10 @@ https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Ctags
 brew install ctags-exuberant
 sudo apt-get install exuberant-ctags
+
+# install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+Launch vim and run :PluginInstall or :PluginUpdate if you have deleted a plugin.
 
 # Install vim pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -26,3 +32,16 @@ https://atom.io/packages/minimap
 https://atom.io/packages/highlight-selected
 https://atom.io/packages/atom-beautify
 https://atom.io/packages/auto-detect-indentation
+## Atom shortcuts
+
+
+
+# Git cheatsheet
+https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf
+git config --global user.name "yeflynn"
+git config --global user.email "yeflynn@gmail.com"
+git config --global color.ui auto
+git config credential.helper store   # Remember password and username
+git status
+git commit -m "xxx"
+git push [alias] [branch]
